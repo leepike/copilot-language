@@ -36,7 +36,7 @@ library
                , containers >= 0.4 && < 1
                , data-reify >= 0.6
                , mtl >= 2.0 && < 3
-               , ghc-prim >= 0.2 && < 0.3
+               , ghc-prim >= 0.2 && < 0.4
                , copilot-core >= 0.1
   exposed-modules: Copilot
                  , Copilot.Language
@@ -66,7 +66,6 @@ library
     -caf-all
     -Wall
 
-    -fpackage-trust
     -- Trusted packages:
     -trust base
     -trust containers
